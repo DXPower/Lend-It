@@ -1,0 +1,33 @@
+$teal: #00bfa5;
+$teal2: #1de9b6;
+
+body {
+	background-color: #f5f5f5;
+}
+
+.push-down-top {
+	margin-top: 20px;
+}
+
+.push-down-top-second {
+	margin-top: 60px;
+}
+
+.fixed-bottom {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.tabs .tab a, .tabs .tab a {
+	color: $teal;
+}
+
+.tabs .tab a:hover {
+	color: $teal2;
+}
+
+.tabs .indicator {
+	background-color: $teal;
+}
