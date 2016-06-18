@@ -32,3 +32,23 @@ body {
 .input-field label.active {
   font-size: 1.0em;
 }
+
+.search-results {
+  background-color: white;
+  margin-top: -15px;
+  /*display: none; */
+}
+
+.result {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.result span {
+  margin-left: 10px;
+}
